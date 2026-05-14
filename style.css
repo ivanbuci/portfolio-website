@@ -118,6 +118,9 @@ button:hover {
     border: 1px solid #1e293b;
     text-align: center;
     transition: 0.3s;
+    .card {
+    -webkit-tap-highlight-color: transparent;
+}
 }
 
 footer {
