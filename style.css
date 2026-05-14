@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #0f172a;
     color: white;
@@ -92,6 +96,24 @@ button:hover {
     transform: translateY(-5px);
 }
 
+.about {
+    padding: 80px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.abot p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    color: #94a3b8;
+    font-size: 18px;
+}
+
 .cards {
     padding: 80px;
     text-align: center;
@@ -170,6 +192,10 @@ footer p {
 }
 
 .light-mode .hero p {
+    color: #475569;
+}
+
+.light-mode .about p {
     color: #475569;
 }
 
