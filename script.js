@@ -1,3 +1,11 @@
+history.scrollRestoration = "manual";
+
+window.onload = function () {
+
+    window.scrollTo(0, 0);
+
+};
+
 const title = document.querySelector(".title");
 
 const button = document.querySelector(".change-btn");
@@ -36,7 +44,7 @@ menuToggle.addEventListener("click", function() {
 
 });
 
-const navItems = document.querySelectorAll(".nav-links");
+const navItems = document.querySelectorAll(".nav-links a");
 
 navItems.forEach(function (item) {
 
@@ -47,3 +55,9 @@ navItems.forEach(function (item) {
     });
 
 });
+
+window.onbeforeunload = function () {
+
+    window.scrollTo(0, 0);
+
+};
