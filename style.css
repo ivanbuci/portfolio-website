@@ -157,6 +157,45 @@ footer p {
     transform: scale(1.2);
 }
 
+.light-mode {
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+.light-mode nav {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.light-mode a {
+    color: #0f172a
+}
+
+.light-mode .hero p {
+    color: #475569;
+}
+
+.light-mode .card {
+    background-color: white;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.light-mode .card p {
+    color: #475569;
+}
+
+.light-mode footer {
+    background: white;
+    border-top: 1px solid #e2e8f0;
+}
+
+.light-mode button {
+    background: #2563eb;
+    color: white;
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
