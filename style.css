@@ -120,11 +120,6 @@ button:hover {
     transition: 0.3s;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-    border: 1px solid #3b82f6;
-}
-
 footer {
     background: #0b1120;
     padding: 50px 20px;
@@ -221,8 +216,19 @@ footer p {
     }
     .card:active {
         transform: scale(0.97);
+        border: 1px solid #3b82f6;
     }
     button {
         margin-bottom: 10px;
     }
 }
+
+@media (hover: hover) {
+
+    .card:hover {
+        transform: translateY(-10px);
+        border: 1px solid #3b82f6;
+    }
+
+}
+
