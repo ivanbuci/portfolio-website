@@ -8,13 +8,28 @@ window.onload = function () {
 
 const title = document.querySelector(".title");
 
-const button = document.querySelector(".change-btn");
+const texts = [
+    "Frontend Developer",
+    "UI Designer",
+    "Freelancer"
+];
 
-button.addEventListener("click", function () {
+let index = 0;
 
-    title.innerHTML = "Javascript Developer";
+function changeText() {
 
-});
+    title.innerHTML = texts[index];
+
+    index++;
+
+    if (index >= texts.length) {
+
+        index = 0;
+    }
+
+}
+
+setInterval(changeText, 2000);
 
 const themeBtn = document.querySelector(".theme-btn");
 
