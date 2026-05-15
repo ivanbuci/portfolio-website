@@ -9,7 +9,7 @@ window.onload = function () {
 const title = document.querySelector(".title");
 
 const texts = [
-    "Frontend Developer",
+    "Frontend",
     "UI Designer",
     "Freelancer"
 ];
