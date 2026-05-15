@@ -154,6 +154,52 @@ button:hover {
     -webkit-tap-highlight-color: transparent;
 }
 
+.projects {
+    padding: 80px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #111827;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #1e293b;
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin: 20px 0 10px;
+}
+
+.project-card p {
+    color: #94a3b8;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+.project-card button {
+    margin: 20px;
+}
+
 footer {
     background: #0b1120;
     padding: 50px 20px;
@@ -263,6 +309,7 @@ footer p {
     }
     .hero h1 {
         font-size: 45px;
+        margin-bottom: 20px;
     }
     .hero img {
         width: 100%;
@@ -280,6 +327,10 @@ footer p {
     button {
         margin-bottom: 10px;
     }
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (hover: hover) {
@@ -287,5 +338,10 @@ footer p {
         transform: translateY(-10px);
         border: 1px solid #3b82f6;
     }
+    .project-card:hover {
+        transform: translateY(-10px);
+        border: 1px solid #3b82f6;
+    }
+
 }
 
